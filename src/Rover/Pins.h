@@ -1,0 +1,20 @@
+#ifndef _PINS_H_
+#define _PINS_H_
+
+#include <Arduino.h>
+
+#define SERVO_PIN 10
+#define ULTRASONIC_SENSOR_TRIG_PIN 12
+#define ULTRASONIC_SENSOR_ECHO_PIN 13
+#define ML_CTRL 4
+#define ML_PWM 5
+#define MR_CTRL 2
+#define MR_PWM 9
+#define DOT_MATRIX_SCL_PIN A5
+#define DOT_MATRIX_SDA_PIN A4
+#define IR_RECV_PIN A0
+#define LEFT_LINE_TRACKING_SENSOR_PIN 6
+#define CENTER_LINE_TRACKING_SENSOR_PIN 7
+#define RIGHT_LINE_TRACKING_SENSOR_PIN 8
+
+#endif
